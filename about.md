@@ -1,8 +1,6 @@
----
-title: Learn CS
-layout: template
-filename: about.md
---- 
+layout: page
+title: "About"
+permalink: /about/
 
 <!DOCTYPE html>
 <html lang="en">
@@ -39,7 +37,7 @@ filename: about.md
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="/index.html">Home</a></li>
+        <li class="page-item"><a href="/index.html/">Home</a></li>
         <li class="active"><a href="#">About</a></li>
         <li class="page-item"><a class="page-link" href="#">Gallery</a></li>
         <li class="page-item"><a class="page-link" href="#">Contact</a></li>
@@ -50,7 +48,7 @@ filename: about.md
     </div>
   </div>
 </nav>
-<div class="container-fluid bg-12 text-center">    
+<div class="container-fluid bg-3 text-center">    
   <h3>About Us</h3><br>
   <div class="row">
       <div class="col-sm-4">
