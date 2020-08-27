@@ -33,18 +33,25 @@ permalink: /about/
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
+      <a class="navbar-brand" href="/index.html/">Learn CS</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="page-item"><a class="page-link" href="index.html">Home</a></li>
+        #<li><a href="/index.html/">Home</a></li>
+        <li class="page-item"><a class="page-link" href="/about.html/">About</a></li>
         <li class="active"><a href="#">About</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<div class="container-fluid bg-12 text-center">    
+  <h3>About Us</h3><br>
+  <div class="row">
+      <div class="col-sm-4">
+            <h4>Who We Are</h4>
+            <button type="button" class="btn btn-primary btn-block" style="width:40%" style="height: 100%"><a href="mailto:griffith.devon@gmail.com">Email a request or suggestion!</a></button>
