@@ -1,8 +1,7 @@
----
-title: Learn CS
-layout: template
-filename: index.md
---- 
+layout: page
+title: "Home"
+permalink: /index/
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,20 +32,11 @@ filename: index.md
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <a class="navbar-brand" href="/index.html/">CS Learn</a>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-       <!-- Use any element to open the sidenav -->
-        <span onclick="openNav()"><a class="navbar-brand" href="/index.html/">CS Learn</a></span>
-        <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="/about.html/">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-        </div>
-      #<a class="navbar-brand" href="/index.html/">CS Learn</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
