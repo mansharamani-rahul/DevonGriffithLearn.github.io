@@ -38,10 +38,8 @@ filename: about.md
       </button>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      #<ul class="nav navbar-nav">
-      <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="/index.html">Home</a></li>
-        #<li><a href="/index.html/">Home</a></li>
+      <ul class="nav navbar-nav">
+        <li><a href="/index.html">Home</a></li>
         <li class="active"><a href="#">About</a></li>
         <li class="page-item"><a class="page-link" href="#">Gallery</a></li>
         <li class="page-item"><a class="page-link" href="#">Contact</a></li>
