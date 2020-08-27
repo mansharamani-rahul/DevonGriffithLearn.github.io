@@ -37,7 +37,7 @@ permalink: /about/
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
+        <li class="page-item"><a class="page-link" href="index.html">Home</a></li>
         <li class="active"><a href="#">About</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>
