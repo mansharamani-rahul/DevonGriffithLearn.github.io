@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Byte Brothers</title>
+  <title>ByteBrothers</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -18,6 +18,7 @@
     footer {
       background-color: #f2f2f2;
       padding: 25px;
+      float: bottom;
     }
   </style>
 </head>
@@ -31,17 +32,26 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
+       <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()"><a class="navbar-brand" href="/index.html/">CS Learn</a></span>
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/about.html/">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+        </div>
+      #<a class="navbar-brand" href="/index.html/">CS Learn</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="/about.html/">About</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="/index.html/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
@@ -49,54 +59,51 @@
 
 <div class="jumbotron">
   <div class="container text-center">
-    <h1>Learn CS The Easy Way</h1>      
+    <h1>Learn CS Without The Stress</h1>      
     <p>Computer Science Made Easy</p>
   </div>
 </div>
   
 <div class="container-fluid bg-3 text-center">    
-  <h3>Tutorial Sets...</h3><br>
+  <h3>Beginner Tutorial Sets</h3><br>
   <div class="row">
     <div class="col-sm-3">
-      <p>Some text..</p>
+      <p>Begin Now</p>
       <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">C</button>
     </div>
     <div class="col-sm-3"> 
-      <p>Some text..</p>
+      <p>Begin Now</p>
       <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">Python</button>
     </div>
     <div class="col-sm-3"> 
-      <p>Some text..</p>
+      <p>Begin Now</p>
       <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">Boolean Algebra</button>
     </div>
     <div class="col-sm-3">
-      <p>Some text..</p>
-      <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">Java</button>
+      <p>Begin Now</p>
+      <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">HTML</button>
     </div>
   </div>
 </div><br>
 
 <div class="container-fluid bg-3 text-center">    
   <div class="row">
-    <div class="col-sm-3">
-      <p>Some text..</p>
+    <div class="col-sm-4">
+      <p>Begin Now</p>
       <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">Neural Nets</button>
     </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
+    <div class="col-sm-4"> 
+      <p>Begin Now</p>
       <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">HTML</button>
     </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">CSS</button>>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">JavaScript</button>
-    </div>
+    <div class="col-sm-4"> 
+      <p>Begin Now</p>
+      <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">CSS</button>
   </div>
 </div><br><br>
 
 <footer class="container-fluid text-center">
+  <p>ByteBrothers LLC</p>
   <p>Founded by: Alex Griffith, Devon Griffith, Riley Griffith</p>
 </footer>
 
