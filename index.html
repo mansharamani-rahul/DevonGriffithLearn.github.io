@@ -23,15 +23,6 @@
   </style>
 </head>
 <body>
-  <!-- Use any element to open the sidenav -->
-  <span onclick="openNav()">open</span>
-  <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="/about.html/">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -41,7 +32,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="/index.html/">CS Learn</a>
+       <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()"><a class="navbar-brand" href="/index.html/">CS Learn</a></span>
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/about.html/">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+        </div>
+      #<a class="navbar-brand" href="/index.html/">CS Learn</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
