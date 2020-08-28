@@ -38,7 +38,7 @@ permalink: /index/
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/index.html/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="/index.html/"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
       </ul>
     </div>
   </div>
@@ -81,7 +81,7 @@ permalink: /index/
     </div>
     <div class="col-sm-4"> 
       <p>Begin Now</p>
-      <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">HTML</button>
+      <button type="button" class="btn btn-primary btn-block" style="width:100%" style="height: 100%">Java</button>
     </div>
     <div class="col-sm-4"> 
       <p>Begin Now</p>
